@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+echo "🔧 Enabling jupyter-server-proxy extension..."
+jupyter server extension enable --sys-prefix jupyter_server_proxy
